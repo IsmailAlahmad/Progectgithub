@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 class providesection extends ChangeNotifier {
   int cont = 0;
+  int a = 0;
   void add() {
     cont++;
     notifyListeners();
@@ -16,6 +17,4 @@ class providesection extends ChangeNotifier {
     cont = 0;
     notifyListeners();
   }
-
-  
 }
